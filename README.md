@@ -171,3 +171,29 @@ Optional additions:
  Rather than telling the user "You have 4 incorrect guesses left", display some picture art for
 the Hangman. This is challenging - do the other parts of the exercise first!
 Your solution will be a lot cleaner if you make use of functions to help you!
+
+
+
+
+ #part 5 for hacktoberfest
+ C++ Program to Add Two Numbers
+In this program, user is asked to enter two integers. Then, the sum of those two integers is stored in a variable and displayed on the screen. Primary tabs
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int firstNumber, secondNumber, sumOfTwoNumbers;
+    
+    cout << "Enter two integers: ";
+    cin >> firstNumber >> secondNumber;
+
+    // sum of two numbers in stored in variable sumOfTwoNumbers
+    sumOfTwoNumbers = firstNumber + secondNumber;
+
+    // Prints sum 
+    cout << firstNumber << " + " <<  secondNumber << " = " << sumOfTwoNumbers;     
+
+    return 0;
+}
