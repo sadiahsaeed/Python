@@ -4,8 +4,8 @@ All Python Assignments of Artificial Intelligence Course
 
 ## Part 2
 Coding Questions:
-1. Write a Python program to create a tuple with different data types.
-2. Write a Python program to print all unique values in a dictionary. Go to the editor
+1. Write a Python program to create the tuple with different data types.
+2. Write the Python program to print all unique values in a dictionary. Go to the editor
 Sample Data : [{"V":"S001"}, {"V": "S002"}, {"VI": "S001"}, {"VI": "S005"},
 {"VII":"S005"}, {"V":"S009"},{"VIII":"S007"}]
 Expected Output : Unique Values: {'S005', 'S002', 'S007', 'S001', 'S009'}
@@ -21,7 +21,7 @@ bd
 5. Write a list comprehension which, from a list, generates a lowercased version of each string
 that has length greater than five.
 6. Let we have a dictionary D which contain roll number of students as key and its values
-shall be a list. The list has tuples as its item. Each tuple represents the name of the subject
+shall be the list. The list has tuples as its item. Each tuple represents the name of the subject
 and gpa of that subject. You can visualize the data structure as of following:
 Key Value
 2016-CS-700 [(DSA,3), (Algo,2.5), (AI,3)]
@@ -38,7 +38,7 @@ AI? (with and without using for loop)
 
 ## Part 3
 Task 01:
-Take a list, say for example this one:
+Take a list, say for example this one
 a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 and write a program that prints out all the elements of the list that are less than 5.
 
@@ -166,7 +166,7 @@ features:
  Only let the user guess 6 times and tell the user how many guesses they have left.
  Keep track of the letters the user guessed. If the user guesses a letter they already guessed,
 don’t penalize them - let them guess again.
-Optional additions:
+Optional additions
  When the player wins or loses, let them start a new game.
  Rather than telling the user "You have 4 incorrect guesses left", display some picture art for
 the Hangman. This is challenging - do the other parts of the exercise first!
